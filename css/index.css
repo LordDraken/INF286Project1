@@ -3,7 +3,28 @@
     font-weight: bold;
     color: black;
     margin: 20px;
-    font-size: 42px;
+    font-size: 48px;
+}
+
+.heading-md {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.main-content {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image-caption {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .selected-works {
@@ -65,4 +86,15 @@ ul.selected-works {
 
 .selected-works > .book-information {
     padding-bottom: 4px;
+}
+
+.book-reviews {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    list-style: none;
+    color: black;
+}
+
+.spacer-md {
+    height: 10px;
 }
