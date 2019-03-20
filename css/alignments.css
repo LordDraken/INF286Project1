@@ -1,3 +1,5 @@
-.align-center	{text-align:center}
+.align-center	{text-align:center;}
 
-.align-right 	{text-align:right}
+.align-right 	{text-align:right;}
+
+body			{font-family: 'Times New Roman', Times, serif;}
