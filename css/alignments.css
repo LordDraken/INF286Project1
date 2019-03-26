@@ -5,3 +5,12 @@
 body			{font-family: 'Times New Roman', Times, serif;}
 
 blockquote		{font-style: italic;}
+
+a:link		{color:aqua;}
+
+a:visited	{color:aqua;}
+
+a:hover		{color:lightgray;}
+
+a:active	{color:green;}
+
