@@ -98,3 +98,21 @@ ul.selected-works {
 .spacer-md {
     height: 10px;
 }
+
+.main-page-book tr {
+    padding: 3px;
+}
+
+.main-page-book td {
+    padding: 3px;
+}
+
+.main-page-book th {
+    text-align: center;
+    padding: 3px;
+}
+
+.review-citation {
+    text-align: right;
+    font-style: italic;
+}
