@@ -116,3 +116,20 @@ ul.selected-works {
     text-align: right;
     font-style: italic;
 }
+
+.review-citation a:link	{
+    color: darkred;
+}
+
+.review-citation a:visited   {
+    color:darkblue;
+}
+
+.review-citation a:hover {
+    color:darkviolet;
+}
+
+.review-citation a:active    {
+    color:green;
+}
+
