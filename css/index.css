@@ -3,7 +3,28 @@
     font-weight: bold;
     color: black;
     margin: 20px;
-    font-size: 42px;
+    font-size: 48px;
+}
+
+.heading-md {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.main-content {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image-caption {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .selected-works {
@@ -37,8 +58,6 @@ ul.selected-works {
     background-color: #444444;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
 }
 
 .book-name > a {
@@ -68,3 +87,49 @@ ul.selected-works {
 .selected-works > .book-information {
     padding-bottom: 4px;
 }
+
+.book-reviews {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    list-style: none;
+    color: black;
+}
+
+.spacer-md {
+    height: 10px;
+}
+
+.main-page-book tr {
+    padding: 3px;
+}
+
+.main-page-book td {
+    padding: 3px;
+}
+
+.main-page-book th {
+    text-align: center;
+    padding: 3px;
+}
+
+.review-citation {
+    text-align: right;
+    font-style: italic;
+}
+
+.review-citation a:link	{
+    color: darkred;
+}
+
+.review-citation a:visited   {
+    color:darkblue;
+}
+
+.review-citation a:hover {
+    color:darkviolet;
+}
+
+.review-citation a:active    {
+    color:green;
+}
+

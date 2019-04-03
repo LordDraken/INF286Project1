@@ -6,8 +6,9 @@ INF 286 - 001 MW 2:00 - 3:15PM GH 333 w/ Hongmei Wang
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="css/Bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/alignments.css">
 		<title>Suzanne Collins Books</title>
 
 	</head>
@@ -20,26 +21,20 @@ INF 286 - 001 MW 2:00 - 3:15PM GH 333 w/ Hongmei Wang
 
 		<!-- Navigation -->
 		<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navigation">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Works</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Biography</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Interview</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="works.html">Works</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="bio.html">Biography</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="events.html">Interview</a>
+				</li>
+			</ul>
 		</nav>
 
 		<header class="row text-center">
@@ -48,21 +43,23 @@ INF 286 - 001 MW 2:00 - 3:15PM GH 333 w/ Hongmei Wang
 			</div>
 		</header>
 
-		<main class="row" style="margin:5px;">
+		<main class="row container-fluid" style="margin:5px;">
+
 			<!-- Selected Works section -->
-			<div class="col-2" style="border-radius: 10px;">
+			<div class="col-2 container-fluid">
 				<div class="selected-works-title">Selected Works</div>
 				<div class="selected-works lg-break"></div>
-
+				
+				<!-- Picture Books -->
 				<div class="selected-works selected-works-section-heading">Picture Books</div>
 				<ul class="selected-works">
-					<li class="selected-works book-name"><a href="#">Year of the Jungle</a></li>
+					<li class="selected-works book-name"><a href="works/yearofthejungle.html">Year of the Jungle</a></li>
 					<li class="selected-works book-information">"Important and necessary."
 						<ul>
 							<li class="selected-works book-information">--Kirkus Reviews, STARRED REVIEW</li>
 						</ul>
 					</li>
-					<li class="selected-works book-name"><a href="#">When Charlie Mcbutton Lost Power</a></li>
+					<li class="selected-works book-name"><a href="works/whencharliemcbuttonlostpower.html">When Charlie Mcbutton Lost Power</a></li>
 					<li class="selected-works book-information">
 						"A clever, humorous story in rhyme."<br>
 						<ul>
@@ -71,38 +68,239 @@ INF 286 - 001 MW 2:00 - 3:15PM GH 333 w/ Hongmei Wang
 					</li>
 				</ul>
 				
+				<!-- Sci-fi -->
 				<div class="selected-works selected-works-section-heading">Sci-Fi</div>
 				<ul class="selected-works">
-					<li class="selected-works book-name"><a href="#">Mockingjay</a></li>
+					<li class="selected-works book-name"><a href="works/mockingjay.html">Mockingjay</a></li>
 					<li class="selected-works book-information">
 						"...every bit as original and thought provoking, as <em>The Hunger Games</em>. Wow."
 						<ul>
 							<li class="selected-works book-information">--Los Angeles Times</li>
 						</ul>
 					</li>
-					<li class="selected-works book-name">When Charlie Mcbutton Lost Power</li>
+					<li class="selected-works book-name"><a href="works/catchingfire.html">Catching Fire</a></li>
 					<li class="selected-works book-information">
-						"A clever, humorous story in rhyme."<br>
+						“...doesn’t disappoint when it segues into the pulse-pounding action readers have come to expect.”<br>
 						<ul>
-							<li class="selected-works book-information">--School Library Jounal</li>
+							<li class="selected-works book-information">--Publishers Weekly, STARRED REVIEW</li>
+						</ul>
+					</li>
+					<li class="selected-works book-name"><a href="works/thehungergames.html">The Hunger Games</a></li>
+					<li class="selected-works book-information">
+						“...a superb tale of physical adventure, political suspense, and romance."<br>
+						<ul>
+							<li class="selected-works book-information">--Booklist, STARRED REVIEW</li>
 						</ul>
 					</li>
 				</ul>
+
+				<!-- Fantasy -->
+				<div class="selected-works selected-works-section-heading">Fantasy</div>
+				<ul class="selected-works">
+					<li class="selected-works book-name"><a href="works/gregortheoverlander.html">Gregor The Overlander</a></li>
+					<li class="selected-works book-information">
+						“...readers will likely find [the Underland] to be a fantastically engaging place.”
+						<ul>
+							<li class="selected-works book-information">--Publishers Weekly, STARRED REVIEW</li>
+						</ul>
+					</li>
+					<li class="selected-works book-name"><a href="works/gregorandtheprophecyofbane.html">Gregor and the Prophecy of Bane</a></li>
+					<li class="selected-works book-information">
+						“Yessss!”
+						<ul>
+							<li class="selected-works book-information">--Kirkus Reviews</li>
+						</ul>
+					</li>
+					<li class="selected-works book-name"><a href="works/gregorandthecurseofthewarmbloods.html">Gregor and the Curse of the Warmbloods</a></li>
+					<li class="selected-works book-information">
+						“...immensely readable installment..."
+						<ul>
+							<li class="selected-works book-information">--The Horn Book</li>
+						</ul>
+					</li>
+					<li class="selected-works book-name"><a href="works/gregorandthemarksofthesecret.html">Gregor and the Marks of the Secret</a></li>
+					<li class="selected-works book-information">
+						"...will leave readers gasping..."
+						<ul>
+							<li class="selected-works book-information">--Kirkus Reviews, STARRED REVIEW</li>
+						</ul>
+					</li>
+					<li class="selected-works book-name"><a href="works/gregorandthecodeoftheclaw.html">Gregor and the Code of the Claw</a></li>
+					<li class="selected-works book-information">
+						"...excellent acquisition for any library."
+						<ul>
+							<li class="selected-works book-information">--VOYA</li>
+						</ul>
+					</li>
+				</ul>
+
+				<!-- Spacer -->
+				<div class="selected-works" style="height: 10px;"></div>
+
+				<!-- Quick Links -->
+				<div class="selected-works-title">Quick Links</div>
+				<ul class="selected-works">
+					<li class="selected-works book-name"><a href="http://www.scholastic.com">Scholastic</a></li>
+					<li class="selected-works book-name"><a href="http://www.penguin.com/">Penguin Group</a></li>
+					<li class="selected-works book-name"><a href="http://www.npr.org/templates/story/story.php?storyId=4646599">NPR</a></li>
+					<li class="selected-works book-name"><a href="http://www.randomhouse.com/audio/listeninglibrary/">Listening Library</a></li>
+					<li class="selected-works book-name"><a href="http://www.indiebound.org/">Indie Bound</a></li>
+					<li class="selected-works book-name"><a href="http://barnesandnoble.com/">Barnes & Noble</a></li>
+					<li class="selected-works book-name"><a href="http://www.booksamillion.com/">Books-A-Million</a></li>
+					<li class="selected-works book-name"><a href="https://www.amazon.com/">Amazon</a></li>
+					<li class="selected-works book-name"><a href="http://www.authorsguild.org/">Author's Guild</a></li>
+					<li class="selected-works book-name"><a href="http://www.authorsguild.org/membersites.html"><img src="img/findauthors.gif"></a></li>
+				</ul>
+
 			</div>
-			<div class="col-10">
+
+			<div class="col-10 container-fluid">
 				<div class="row">
 					<div class="col-8">
-					<span class="welcome-heading">Welcome</span> 
-					<p><span class="welcome-content">Hi! Thanks for visiting my website. Here’s a picture of 
+					<h2>Welcome</h2> 
+					<p><span class="main-content">Hi! Thanks for visiting my website. Here’s a picture of 
 						me with a rat in Central Park. If you’ve read my fantasy series, The Underland Chronicles, 
 						you will have a clue as to why I chose this photo. If not, you may want to click around 
 						and find out a little more about my books. Or visit the Scholastic website for cool 
 						games and info!</span></p>
 					</div>
-					<div class="col-2">
+					<div class="col-2" style="text-align: center">
 						<img class="rounded" src="img/Central_park_ii-330-exp.jpg" alt="Central Park" width="330" height="330">
 						<span class="image-caption">Fly You High!</span>
 					</div>
+				</div>
+
+				<div class="row">
+					<table class="main-page-book">
+						<tr>
+							<th class="header-main" colspan="2">The Mockingjay: Movie Tie-in</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/index/Mockingjay-Movie-Tie-In-330.jpg">
+							</td>
+							<td rowspan="2">
+								<ul class="book-reviews">
+									<li>#1 USA Today Bestseller</li>
+									<li>#1 New York Times Bestseller </li>
+									<li>#1 Wall Street Journal Bestseller</li>
+									<li>#1 Publishers Weekly Bestseller</li>
+									<li>A New York Times Notable Children's Book of 2010</li>
+									<li>A New York Times Book Review Editors' Choice</li>
+									<li>A 2010 Booklist Editors' Choice</li>
+									<li>A 2010 Kirkus Best Book of the Year</li>
+									<li>A Publishers Weekly Best Book of 2010</li>
+									<li>An NPR Best Book of 2010</li>
+								</ul>
+								<ul class="book-reviews">
+									<li>“This concluding volume in Collins's Hunger Games trilogy accomplishes a rare feat, the last installment being the best yet, a beautifully orchestrated and intelligent novel that succeeds on every level."
+									--Publishers Weekly, STARRED REVIEW</li>
+									<div class="spacer-md"></div>
+									<li>“...readers will instinctively understand what Katniss knows in her soul, that war mixes all the slogans and justifications, the deceptions and plans, the causes and ideals into an unsavory stew whose taste brings madness. That there is still a human spirit that yearns for good is the book’s primrose of hope."
+									--Booklist, STARRED REVIEW</li>
+									<div class="spacer-md"></div>
+									<li>“In the final analysis, this is exactly the book its fans have been hoping for. It will grab them and not let go, and if it leaves them with questions, well, then, it’s probably exactly the book Collins was hoping for, too."
+									--Kirkus, STARRED REVIEW</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td class="image-caption">
+								<span class="image-caption">Movie Tie-in edition is now available!</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="row">
+					<table class="main-page-book">
+						<tr>
+							<th class="header-main" colspan="2">The Mockingjay</th>
+						</tr>
+						<tr>
+							<td>
+								<ul class="book-reviews">
+									<li>"At its best the trilogy channels the political passion of “1984,” the memorable violence of “A Clockwork Orange,” the imaginative ambience of “The Chronicles of Narnia” and the detailed inventiveness of “Harry Potter.” The specifics of the dystopian universe, and the fabulous pacing of the complicated plot, give the books their strange, dark charisma."</li>
+									<li class="review-citation">--The New York Times, Katie Roiphe</li>
+									<li>"This dystopic-fantasy series, which began in 2008, has had such tremendous crossover appeal that teens and parents may discover themselves vying for -- and talking about -- the family copy of "Mockingjay." And there's much to talk about because this powerful novel pierces cheery complacency like a Katniss-launched arrow. Look skeptically at computer and television images, it suggests, be aware of spin, gaze upon the young faces of the world's soldiers. Children forced to kill children? It's not just in the pages of a novel."</li>
+									<li class="review-citation">--The Washington Post</li>
+									<li>"The indelible conclusion to Suzanne Collins’ Hunger Games trilogy proves once more that the greatest fantasy novels hold an incandescent mirror up to reality."</li>
+									<li class="review-citation">--Parade, Parade Picks</li>
+									<li>"But being the Mockingjay comes with a price as Katniss must come to terms with how much of her own humanity and sanity she can willingly sacrifice for the cause, her friends, and her family. Collins is absolutely ruthless in her depictions of war in all its cruelty, violence, and loss, leaving readers, in turn, repulsed, shocked, grieving and, finally, hopeful for the characters they've grown to empathize with and love. Mockingjay is a fitting end to the series that began with The Hunger Games (2008) and Catching Fire (2009) and will have the same lasting resonance as William Golding's Lord of the Flies and Stephen King's The Stand."</li>
+									<li class="review-citation">--School Library Journal</li>
+									<li>"The final installment, the grimmest yet, is a riveting meditation on the costs of war...Clear your schedule before you start: This is a powerful, emotionally exhausting final volume."</li>
+									<li class="review-citation">--People Magazine,4 OUT OF 4 STARS</li>
+									<li>"Fans will be happy to hear that Mockingjay is every bit as complex and imaginative as Hunger Games and Catching Fire. Collins has kicked the brutal violence up a notch in an edge-of-your-seat plot that follows Katniss as she tries to fulfill her role, protect her mother and sister and, in the end, finally choose between her two greatest loves. B+."</li>
+									<li class="review-citation">--Entertainment Weekly</li>
+									<li>"Mockingjay” is without question the most brutal of the trilogy. Nobody emerges unscathed – very bad things happen to everyone from fan favorites down to characters so minor a reader has to pause and think, “Now, who was that again?” before recoiling in horror at their fate. Collins doesn’t take war lightly – her characters debate the morality involved in tactics used to try to overthrow the rotting, immoral government, and they pay a high cost for those tactics. It is also an entirely gripping read. In Katniss, Collins has crafted a heroine so fierce and tenacious that this reader will follow her anywhere."</li>
+									<li class="review-citation">--Christian Science Monitor</li>
+									<li>"Much of the action takes place on a battlefield akin to Iraq — where innocent civilians are murdered to further a cause and each side resorts to unsavory tactics that could lead to a terrorist label. More maudlin than the first two books in the series, "Mockingjay" is also the most violent and bloody and, based on the actions and statements of its characters, its most overtly antiwar — though not so much that it distracts from a series conclusion that is nearly as shocking, and certainly every bit as original and thought provoking, as "The Hunger Games." Wow."</li>
+									<li class="review-citation">--Los Angeles Times</li>
+									<li>"Suspenseful... Collins' fans, grown-ups included, will race to the end."</li>
+									<li class="review-citation">--USA Today</li>
+								</ul>
+							</td>
+							<td class="image-caption">
+								<img src="img/index/Mockingjay.jpg">
+								#1 USA Today Bestseller! (Ages 12 & up)
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="row">
+					<table class="main-page-book">
+						<tr>
+							<th class="header-main" colspan="2">Catching fire</th>
+						</tr>
+						<tr>
+							<td class="image-caption">
+								<img src="img/index/Catching_fire_c-330.jpg">
+								#1 USA Today Bestseller! (Ages 12 & up)
+							</td>
+							<td>
+								<ul class="book-reviews">
+									<li>“Whereas Katniss kills with finesse, Collins writes with raw power...The Hunger Games and Catching Fire expose children to exactly the kind of violence we usually shield them from. But that just goes to show how much adults forget about what it's like to be a child. Kids are physical creatures, and they're not stupid. They know all about violence and power and raw emotions. What's really scary is when adults pretend that such things don't exist."</li>
+									<li class="review-citation">--Time Magazine</li>
+									<li>“Gladiator” meets “Project Runway” in Suzanne Collins’s gripping dystopian novel “The Hunger Games” and its new sequel, “Catching Fire.” Collins has joined J.K. Rowling and Stephenie Meyer as a writer of children's books that adults are eager to read.”</li>
+									<li class="review-citation">--<a href="https://www.bloomberg.com/" target="_blank">Bloomberg.com</a></li>
+									<li>“Catching Fire not only lived up to my high expectations, it surpassed them. It's just as exciting as The Hunger Games, but even more gut wrenching, because you already know these characters, you've already suffered with them.”</li>
+									<li class="review-citation">--Stephenie Meyer, <a href="https://stepheniemeyer.com/" target="_blank">www.stepheniemeyer.com</a></li></li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="row">
+					<table class="main-page-book">
+						<tr>
+							<th class="header-main" colspan="2">The Hunger Games</th>
+						</tr>
+						<tr>
+							<td>
+								<ul class="book-reviews">
+									<li>"[The Hunger Games] is a violent, jarring, speed-rap of a novel that generates nearly constant suspense...I couldn't stop reading."</li>
+									<li class="review-citation" style="text-align:left"><a href="https://ew.com/article/2008/09/08/hunger-games/" target="_blank">Read the Full EW Review</a></li>
+									<li class="review-citation">--Stephen King, Entertainment Weekly Review</li>
+									<li>"I was so obsessed with this book I had to take it with me out to dinner and hide it under the edge of the table so I wouldn't have to stop reading. The story kept me up for several nights in a row, because even after I was finished, I just lay in bed wide awake thinking about it...The Hunger Games is amazing."</li>
+									<li class="review-citation">--Stephenie Meyer, <a href="https://stepheniemeyer.com/" target="_blank">www.stepheniemeyer.com</a></li>
+									<li>"The Hunger Games is as close to perfect an adventure novel as I've ever read. I could not put it down. Collins has transformed the ancient Labyrinth myth into a terrifyingly believable tale of future America. Readers will be hungry for more.</li>
+									<li class="review-citation">--Rick Riordan, author of The Percy Jackson Series and The 39 Clues</li>
+									<li>“[The Hunger Games] is a great book, and very thought-provoking. Read this along with your teen and discuss it.”</li>
+									<li class="review-citation">--Charlaine Harris, <a href="http://charlaineharris.com/" target="_blank">www.charlaineharris.com</a></li>
+									<li></li>
+									<li class="review-citation"></li>
+									<li></li>
+									<li class="review-citation"></li>
+								</ul>
+							</td>
+							<td class="image-caption">
+								<img src="img/index/The Hunger Games.jpg">
+								Over Six Years on the New York Times Best Sellers List! (Ages 12 & up)
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</main>
