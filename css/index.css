@@ -95,6 +95,14 @@ ul.selected-works {
     color: black;
 }
 
+.book-reviews li {
+    padding: 2px;
+}
+
+.book-reviews ul {
+    padding: 5px;
+}
+
 .spacer-md {
     height: 10px;
 }
